@@ -57,5 +57,5 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
         with:
-         folder: dist   # <-- explicitly tell it to deploy 'dist'
+         
          token: ${{ secrets.GITHUB_TOKEN }}
